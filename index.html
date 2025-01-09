@@ -7,73 +7,88 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Sounds of Africa</h1>
-        <p>Explore the vibrant rhythms and melodies of African music.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artists.html">Artists</a></li>
+                <li><a href="genres.html">Genres</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section>
-        <h2>Experience the Sounds of Africa</h2>
-        <img src="images/hero.jpg" alt="African Music Celebration" width="100%">
-        <p>Immerse yourself in the rich and diverse sounds of African music.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ENRtKLrxRHY?si=L9x4GQ_o7MifUxUf" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
-    </section>
+    <main>
+        <section id="hero">
+            <img 
+              src="assets/images/hero.jpg" 
+              alt="Vibrant African music" 
+              width="100%"
+            />
+            <h1>Welcome to the Sounds of Africa</h1>
+            <p>Explore the rich and diverse music from all corners of Africa.</p>
+            <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/pm9yDGtWxYE?si=yT-X04UBsIzqJGmO" 
+              title="YouTube video player" 
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen>
+            </iframe>
+        </section>
 
-    <section>
-        <h2>Featured Artists</h2>
-        <figure>
-            <img src="images/davido.png" alt="Davido" width="200">
-            <figcaption>
-                <strong>Davido</strong> - A Nigerian singer and global Afrobeats icon.
-                <a href="artists/davido.html">Learn more</a>
-            </figcaption>
-        </figure>
-        <figure>
-            <img src="images/bien.png" alt="Bien" width="200">
-            <figcaption>
-                <strong>Bien</strong> - A Kenyan singer and member of Sauti Sol.
-                <a href="artists/bien.html">Learn more</a>
-            </figcaption>
-        </figure>
-        <figure>
-            <img src="images/meddy.png" alt="Meddy" width="200">
-            <figcaption>
-                <strong>Meddy</strong> -Rwandan artist Known for his hit song 'Slowly' across East Africa.
-                <a href="artists/meddy.html">Learn more</a>
-            </figcaption>
-        </figure>
-    </section>
+        <section id="featured-artists">
+            <h2>Featured Artists</h2>
 
-    <section>
-        <h2>Explore by Genre</h2>
-        <ul>
-            <li><a href="genres/afrobeats.html"><mark>Afrobeats</mark></a></li>
-            <li><a href="genres/bongo-flava.html"><mark>Bongo Flava</mark></a></li>
-            <li><a href="genres/amapiano.html"><mark>Amapiano</mark></a></li>
-        </ul>
-    </section>
+            <figure>
+                <img src="assets/images/bien.png" alt="Bien solo artist">
+                <figcaption>Bien - Talented Kenyan Artist</figcaption>
+                <p>Bien is a talented African artist with a unique blend of Afrobeat and pop music.</p>
+                <a href="bien.html">Learn more about Bien</a>
+            </figure>
 
-    <section>
-        <h2>Latest News</h2>
-        <article>
-            <h3>Davido Releases New Album</h3>
-            <p><time datetime="2024-05-01">May 1, 2024</time> - Davido drops his latest album, captivating fans worldwide.</p>
-        </article>
-        <article>
-            <h3>Bien's Upcoming Solo Concert</h3>
-            <p><time datetime="2024-06-10">June 10, 2024</time> - Bien announces a special solo performance in Nairobi.</p>
-        </article>
-        <article>
-            <h3>Meddy Hits 100M Streams</h3>
-            <p><time datetime="2024-07-15">July 15, 2024</time> - Meddy’s song 'Slowly' surpasses 100 million streams globally.</p>
-        </article>
-    </section>
+            <figure>
+                <img 
+                  src="assets/images/davido.png" 
+                  alt="Davido artist"
+                >
+                <figcaption>Davido - Afrobeat Superstar</figcaption>
+                <p>Davido is an international superstar known for his Afrobeat hits and electrifying performances.</p>
+                <a href="davido.html">Learn more about Davido</a>
+            </figure>
 
-    <!-- Footer Section -->
+            <figure>
+                <img 
+                  src="assets/images/meddy.png"
+                  alt="Meddy artist"
+                >
+                <figcaption>Meddy - Rwanda's R&B Sensation</figcaption>
+                <p>Meddy is an R&B artist from Rwanda with soulful melodies that have captured hearts across Africa.</p>
+                <a href="meddy.html">Learn more about Meddy</a>
+            </figure>
+        </section>
+
+        <section id="explore-by-genre">
+            <h2>Explore by Genre</h2>
+            <ul>
+                <li><a href="genre1.html">Afrobeat</a></li>
+                <li><a href="genre2.html">Highlife</a></li>
+                <!-- Add more genres as needed -->
+            </ul>
+        </section>
+
+        <section id="latest-news">
+            <h2>Latest News</h2>
+            <article>
+                <h3>Bien's New Single Released</h3>
+                <p>Bien just dropped his new single, check it out! <mark>Afrobeat</mark> vibes with a fresh twist.</p>
+            </article>
+            <!-- Add more news articles -->
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2024 Sounds of Africa. All Rights Reserved.</p>
+        <p>&copy; 2025 Sounds of Africa. All rights reserved.</p>
     </footer>
 </body>
 </html>
